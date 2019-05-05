@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int number,counter,sum=0;
+    int number;
     do
     {
         cout << "Please enter a positive integer: ";
@@ -14,7 +14,7 @@ int main()
         else
         cout << "Thank you! \n";
     }
-    while (number!=0);
+    while (number>0);
 
     getch();
     return 0;
