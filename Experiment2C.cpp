@@ -45,6 +45,9 @@ int main ()
             cin >> x;
             cout << setw(10) << fixed << setprecision(2) << "V = " << x + y + z << endl;
             break;
+        default:
+            cout << "Invalid. \n";
+            break;
     }
     getch();
     return 0;
