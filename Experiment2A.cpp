@@ -21,10 +21,8 @@ int main ()
     case 'a':
         if (hours >= 0 && hours <= 10)
             cout << "Your total bill for this month is P995." << endl;
-        else if (hours > 10)
-            cout << "Your total bill for this month is P" << 995 + ((hours-10)*20) << "." << endl;
         else
-            cout << "Invalid \n";
+            cout << "Your total bill for this month is P" << 995 + ((hours-10)*20) << "." << endl;
         break;
     case 'B':
     case 'b':
